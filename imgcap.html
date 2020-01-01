@@ -1,0 +1,9 @@
+<!-- Author: Parsia Hakimian https://github.com/parsiya/Hugo-Shortcodes -->
+
+<!-- imitates the imgcap plugin from Octopress
+  see readme or the above repository for usage -->
+
+<span class="caption-wrapper">
+    <img class="caption" style="width: {{.Get "width" }}" src="{{ .Get "src" }}" title="{{ .Get "title" }}" alt="{{ .Get "title" }}">
+    <p style="text-align:center">{{ .Get "title" }}</p>
+</span>
